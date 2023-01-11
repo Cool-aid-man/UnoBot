@@ -22,7 +22,7 @@ class Donate extends Command {
 			.setDescription(
 				`**${await translate("other.donate.embed.desc", msg.guild.language, {
 					donateURL:
-						"You can either donate at\n` - `https://paypal.me/coolaid01\nor,\n` - `https://discord.gg/thestarship"
+						"You can either donate at\n` - ` https://paypal.me/coolaid01\nor,\n` - ` https://discord.gg/thestarship"
 				})}**`
 			)
 			.setThumbnail(

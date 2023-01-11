@@ -22,7 +22,7 @@ class Donate extends Command {
 			.setDescription(
 				`**${await translate("other.donate.embed.desc", msg.guild.language, {
 					donateURL:
-						"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=exium16%40gmail.com&currency_code=USD&source=url"
+						"You can come over and donate https://discord/gg/thestarship"
 				})}**`
 			)
 			.setThumbnail(
